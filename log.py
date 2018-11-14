@@ -1,4 +1,5 @@
 import logging
+#The Module ColoredLogs is Required. install it by, pip install coloredlogs --user
 import coloredlogs
 coloredlogs.install()
 logger = logging.getLogger(__name__)
